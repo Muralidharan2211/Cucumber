@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Search multiple product",
+        "description": "",
+        "id": "serach-multiple-item;search-multiple-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2957400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user searches for product",
+            "match": {
+              "location": "Search.user_searches_for_product(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "bat"
+                ]
+              },
+              {
+                "cells": [
+                  "ball"
+                ]
+              },
+              {
+                "cells": [
+                  "stumps"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify",
+            "match": {
+              "location": "Search.verify()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "close the applicaton",
+            "match": {
+              "location": "Search.close_the_applicaton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Serach multiple Item",
+    "description": "",
+    "id": "serach-multiple-item",
+    "keyword": "Feature",
+    "uri": "src/main/resources/sample26.feature",
+    "tags": []
+  }
+]
